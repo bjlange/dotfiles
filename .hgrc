@@ -1,0 +1,6 @@
+[ui]
+username = Brian Lange <brian.lange@datascopeanalytics.com>
+editor = emacs
+
+[extensions]
+record =
