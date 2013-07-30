@@ -2,7 +2,8 @@
 
 (require 'better-defaults)
 (require 'init-elpa)
-(require 'init-themes)
+(when (display-graphic-p)
+  (require 'init-themes))
 (require 'init-python)
 (require 'init-js)
 (require 'init-html)
