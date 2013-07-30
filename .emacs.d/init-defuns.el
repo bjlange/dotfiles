@@ -21,6 +21,13 @@ Including indent-buffer, which should not be called automatically on save."
       (message "Opening file...")
     (message "Aborting")))
 
+(defun toggle-fullscreen ()
+  "Toggle full screen"
+  (interactive)
+  (set-frame-parameter
+     nil 'fullscreen
+     (when (not (frame-parameter nil 'fullscreen)) 'fullboth)))
+
 
 (defun set-window-width (n)
   "Set the selected window's width."
