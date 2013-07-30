@@ -1,1 +1,0 @@
-("/Users/brian/dsa/Projects/BeerAdv/" "/Users/brian/OSS_contrib/python-docx/" "/Users/brian/Scripts/vagrant-bash-completion/" "/Users/brian/dsa/Projects/Googorola/" "/Users/brian/podium/" "/Volumes/backup/Users/brian/speakeasy/")
