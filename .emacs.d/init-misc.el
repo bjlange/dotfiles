@@ -39,8 +39,10 @@
 (require 'expand-region)
 
 ;; multiple-cursors - multicursor goodness a la Sublime Text via magnars
-(defvar rectangular-region-mode nil)
-(require 'multiple-cursors)
+;; turned off in terminal mode for now, since it fucks stuff up during init
+(when (display-graphic-p)
+  (defvar rectangular-region-mode nil)
+  (require 'multiple-cursors))
 
 ;; recent files mode- lets you navigate last n files opened using ido
 (require 'recentf)
