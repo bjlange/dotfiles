@@ -28,6 +28,10 @@
 ;; idomenu - ido symbol jump within files
 (autoload 'idomenu "idomenu" nil t)
 
+;; puppetmode
+(autoload 'puppet-mode "puppet-mode" "Major mode for puppet manifests")
+(add-to-list 'auto-mode-alist '("\\.pp$" . puppet-mode))
+
 ;; ace-jump-mode- quick jumpin'
 (autoload
   'ace-jump-mode
